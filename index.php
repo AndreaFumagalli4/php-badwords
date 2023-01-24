@@ -13,10 +13,10 @@
             </h1>
         </header>
         <main>
-            <form action="./controller.php" method="GET">
+            <form action="./controller.php" method="POST">
                 <textarea rows="4" cols="30" name="paragraph"></textarea>
                 <br>
-                <input type="text" name="word">
+                <input type="text" name="word" placeholder="scrivi la parola da censurare">
                 <button type="submit">Invia</button>
             </form>
         </main>

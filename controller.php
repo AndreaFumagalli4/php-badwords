@@ -4,21 +4,18 @@
 
 <p>
     <?php 
-        echo $_GET['paragraph'];
+        echo $_POST['paragraph'];
     ?>
     <br>
     <?php 
         $sentence = 'Il paragrafo è lungo : ';
-        echo $sentence.strlen($_GET['paragraph']);
+        echo $sentence.strlen($_POST['paragraph']);
     ?>
 </p>
 
-<?php 
-    $newParagraph = str_replace(strtolower($_GET['word']), '***', strtolower($_GET['paragraph']));
-?>
-
 <p>
-    <?php 
+    <?php
+        $newParagraph = str_replace(strtolower($_POST['word']), '***', strtolower($_POST['paragraph']));
         echo $newParagraph;
     ?>
     <br>
