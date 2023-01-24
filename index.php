@@ -8,8 +8,10 @@
     </head>
     <body>
         <main>
-            <form action="">
-                
+            <form action="./controller.php" method="GET">
+                <input type="textarea" name="paragraph">
+                <input type="text" name="text">
+                <button type="submit">Invia</button>
             </form>
         </main>
     </body>
