@@ -16,7 +16,7 @@
             <form action="./controller.php" method="GET">
                 <textarea rows="4" cols="30" name="paragraph"></textarea>
                 <br>
-                <input type="text" name="text">
+                <input type="text" name="word">
                 <button type="submit">Invia</button>
             </form>
         </main>
