@@ -15,7 +15,7 @@
 
 <p>
     <?php
-        $newParagraph = str_replace(strtolower($_POST['word']), '***', strtolower($_POST['paragraph']));
+        $newParagraph = str_ireplace($_POST['word'], '***', $_POST['paragraph']);
         echo $newParagraph;
     ?>
     <br>
