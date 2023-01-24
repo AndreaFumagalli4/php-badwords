@@ -7,9 +7,15 @@
         <title>PHP Badwords</title>
     </head>
     <body>
+        <header>
+            <h1>
+                PHP - Badwords
+            </h1>
+        </header>
         <main>
             <form action="./controller.php" method="GET">
-                <input type="textarea" name="paragraph">
+                <textarea rows="4" cols="30" name="paragraph"></textarea>
+                <br>
                 <input type="text" name="text">
                 <button type="submit">Invia</button>
             </form>
